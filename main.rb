@@ -216,6 +216,10 @@ loop do
       next
     end
 
+    if trip[3] > trip[2]
+      puts "Yes it works"
+    end
+
     # this element contains miles driven so converting to float
     trip[4] = trip[4].to_f
 
