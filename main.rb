@@ -1,4 +1,5 @@
 ######### Build on 23 Jan 2021
+######### Ruby version ruby 2.7.2p137
 =begin
 
 write some code to track driving history for people.
@@ -205,7 +206,7 @@ loop do
       # checks if user entry is convertible to time format
       trip[2] = Time.parse(trip[2])
       trip[3] = Time.parse(trip[3])
-    # if not a custom exception is run in terminal
+    # if not, a custom exception is run in terminal
     rescue
       # prints error
       puts $!
