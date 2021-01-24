@@ -216,8 +216,11 @@ loop do
       next
     end
 
-    if trip[3] > trip[2]
-      puts "Yes it works"
+    if trip[3] < trip[2]
+      puts "Departure time cannot be later than arrival time!"
+      puts "Re-enter the trip details: "
+      puts "\n"
+      next
     end
 
     # this element contains miles driven so converting to float
