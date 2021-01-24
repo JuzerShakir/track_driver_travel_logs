@@ -172,7 +172,7 @@ if trip_info.empty? then abort "Atleast 1 driver entry expected." else p trip_in
 puts "\n"
 
 # now having names of drivers registered we will now ask their trip details..
-puts "Now enter trip info of the drivers name you entered."
+puts "Now enter trip info of the driver names you entered."
 puts "Enter trip info in this form 'Trip driver-name start-time stop-time miles-driven.'"
 puts "Format of time will be as hours:mins and use 24 hour clock."
 puts "Press enter to register entry, press enter again to exit registering trip details."
@@ -190,18 +190,32 @@ loop do
 
   # checks if input is appropriate
   if trip[0] != "Trip"
-    puts "Please Enter appropriate input!"
+    puts "Please Enter appropriate input!\n"
     # wrong input will re-ask user for input
     next
   end
 
   # checks if driver name entered in trip details exist in our registered driver names
-  # .. and also checks if the details entered are correct
+  # .. and also checks if the details entered are of correct length
   if trip_info.include?(trip[1]) && trip.length == 5
 
     # 3rd and 4th element of input contains time, lets convert
-    trip[2] = Time.parse(trip[2])
-    trip[3] = Time.parse(trip[3])
+    # ..but we need to make sure that user entry entered is indeed proper time format
+    begin
+      # checks if user entry is convertible to time format
+      trip[2] = Time.parse(trip[2])
+      trip[3] = Time.parse(trip[3])
+    # if not a custom exception is run in terminal
+    rescue
+      # prints error
+      puts $!
+      puts "Please input proper time information! Input a 24 hour time format HH:MM."
+      puts "Re-enter the trip details: "
+      puts "\n"
+      # re runs the loop asking to enter details again
+      next
+    end
+
     # this element contains miles driven so converting to float
     trip[4] = trip[4].to_f
 
@@ -224,6 +238,7 @@ loop do
   # ..input isnt appropraite we re-ask for input
   else
     puts "Driver NOT found OR Entered UNEXPECTED number of inputs!"
+    puts "\n"
     next
   end
 
