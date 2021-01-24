@@ -216,6 +216,9 @@ loop do
       next
     end
 
+    # what if user has input departure time later than arrival?
+    # that would be impropriate input. we could swap the time values..
+    # ..but its better to ask user again for trip inputs
     if trip[3] < trip[2]
       puts "Departure time cannot be later than arrival time!"
       puts "Re-enter the trip details: "
