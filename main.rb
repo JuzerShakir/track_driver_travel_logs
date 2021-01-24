@@ -219,6 +219,15 @@ loop do
     # this element contains miles driven so converting to float
     trip[4] = trip[4].to_f
 
+    # before that we make sure its proper input of number given not alphabets
+    if trip[4] <= 0.0
+      # rerun the program asking trip details again
+      puts "Enter Valid Miles-driven input."
+      puts "Re-enter the trip details: "
+      puts "\n"
+      next
+    end
+
     # since we can take multiple entries of single driver, we need to ..
     # .. confirm if we have already given trip details to that driver
     if trip_info[trip[1]] == 0
