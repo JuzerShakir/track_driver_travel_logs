@@ -48,7 +48,8 @@ Adam: 0 miles
 
 ----
 
-**This project was solved using <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" /> with version `2.7.2p137` in `ver_1.rb` file & `3.0.0` in `ver_2.rb` file.**
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby(2.7.2)&logoColor=white" />
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby(3.0.0)&logoColor=white" />
 
 
 
