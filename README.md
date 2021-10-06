@@ -1,5 +1,9 @@
 # Problem: Drivers' Travel Log
 
+<div align="center">
+  <img src="project_logo.png" />
+</div>
+
 ### ❗ Problem Details
 
 Each line in the input file will start with a command. There are two
