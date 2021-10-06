@@ -141,12 +141,13 @@ miles_driven = miles_driven.sort_by { | k, v | [-v, k] }.to_h
 
 
 # -----------------Output----------------------#
+puts "\n"
 
 miles_driven.each do |k, v|
   if v == 0
-    puts "\n#{k}: #{v} miles."
+    puts "#{k}: #{v} miles."
   else
-    puts "\n#{k}: #{v} miles @ #{driver_trips.fetch(k)[:speed]} mph."
+    puts "#{k}: #{v} miles @ #{driver_trips.fetch(k)[:speed]} mph."
   end
 end
 
