@@ -8,7 +8,6 @@ possible commands.<br/>
 The first command is `Driver`, which will register a new Driver.<br/>
 Example: `Driver Terence`
 
-<br/>
 
 The second command is `Trip`, which will record a trip attributed to a
 driver.
@@ -20,12 +19,10 @@ Times will be given in the format of hours:minutes. We'll use a
 (the start time will always be before the end time).<br/>
 Example: `Trip Terence 07:15 07:45 17.3`
 
-<br/>
 
 Discard any trips that average a speed of less than 5 mph or greater
 than 100 mph.
 
-<br/>
 
 Generate a report containing each driver with total miles driven and
 average speed. Sort the output by most miles driven to least. Round
@@ -53,13 +50,11 @@ Adam: 0 miles
 
 **This project was solved using <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" /> with version `2.7.2p137` in `ver_1.rb` file & `3.0.0` in `ver_2.rb` file.**
 
-----
 
 
 ### 💎 Libraries Used
  - _time_
 
----
 
 ### 📋 Local Execution
 
