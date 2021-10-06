@@ -54,9 +54,9 @@ Adam: 0 miles
 
 ### ✔️ Solution Details
 
-<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" /> ver. *2.7.2*
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" /> *ver: 2.7.2*
 <br/>
-<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" /> ver. *3.0.0*
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" /> *ver: 3.0.0*
 
 
 
