@@ -38,7 +38,7 @@ end
 
 
 # asking no. of trip entries user will enter
-puts "How many trip details will you enter?"
+puts "\nHow many trip details will you enter?"
 n = gets.chomp.to_i
 
 # ask trip details
@@ -46,12 +46,12 @@ puts "Enter trip details as 'Trip (driver name)..':"
 
 n.times do
   # since each data is is separated by a space in input..
-  key, d_name, start, finish, m = gets.chomp.split()
+  key, d_name, departure, arrival, m = gets.chomp.split()
 
   # trip validation #1 -- Time
   begin
-    start = Time.parse(start)
-    finish = Time.parse(finish)
+    departure = Time.parse(departure)
+    arrival = Time.parse(arrival)
   rescue
     # if time is in wrong form
     puts "Invalid Time input."
@@ -59,6 +59,12 @@ n.times do
   end
 
   # trip key validation #2
+  if arrival < departure
+    puts "Arrival time cannot be earlier than departure.\nEnter new entry!"
+    next
+  end
+
+  # trip key validation #3
   if  key != "Trip" || m.to_f == 0.0
     puts "Incorrect keywords typed.\n"
     # asks user for next entry
@@ -69,7 +75,7 @@ n.times do
   # checks if driver exists in our list
   if driver = driver_trips.fetch(d_name)
     # we calculate the time he/she traveled
-    travel_time = finish - start
+    travel_time = arrival - departure
 
     # since each drivers can have multiple entries given..
     # .. we want avoid to override the values..
@@ -126,21 +132,21 @@ driver_trips.each do |k, v|
     miles_driven.store(k, v.fetch(:miles_driven))
   end
 end
-
 #p miles_driven
-#
+
+
 # this will sort the values of keys in descending order and return as a hash
 miles_driven = miles_driven.sort_by { | k, v | [-v, k] }.to_h
-p miles_driven
+#p miles_driven
 
 
 # -----------------Output----------------------#
 
 miles_driven.each do |k, v|
   if v == 0
-    puts "#{k}: #{v} miles."
+    puts "\n#{k}: #{v} miles."
   else
-    puts "#{k}: #{v} miles @ #{driver_trips.fetch(k)[:speed]} mph."
+    puts "\n#{k}: #{v} miles @ #{driver_trips.fetch(k)[:speed]} mph."
   end
 end
 
