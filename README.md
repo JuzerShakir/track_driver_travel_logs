@@ -1,7 +1,7 @@
 # Problem: Track Driver Travel Logs
 
 <div align="center">
-  <img src="project_logo.png" />
+  <img src="assets/project_logo.png" />
 </div>
 
 ### ❗ Problem Details
