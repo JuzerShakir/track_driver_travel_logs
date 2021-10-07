@@ -6,21 +6,21 @@
 
 ### ❗ Problem Details
 
-Each line in the input file will start with a command. There are two
+> Each line in the input file will start with a command. There are two
 possible commands.<br/>
 
-The first command is `Driver`, which will register a new Driver.<br/>
+> The first command is `Driver`, which will register a new Driver.
 Example: `Driver Terence`
 
 
-The second command is `Trip`, which will record a trip attributed to a
+> The second command is `Trip`, which will record a trip attributed to a
 driver.
-<br/>
-The line will be space delimited with the following fields:
+
+>The line will be space delimited with the following fields:
 the command (Trip), driver name, start time, stop time, miles driven.
 Times will be given in the format of hours:minutes. We'll use a
 24-hour clock and will assume that drivers never drive past midnight
-(the start time will always be before the end time).<br/>
+(the start time will always be before the end time).
 Example: `Trip Terence 07:15 07:45 17.3`
 
 
