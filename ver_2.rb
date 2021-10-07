@@ -146,8 +146,11 @@ puts "\n"
 miles_driven.each do |k, v|
   if v == 0
     puts "#{k}: #{v} miles."
-  else
+  # only output those drivers whose speed is greater than equal to 5 mph and less than equal to 100 mph.
+  elsif v >= 5 && v <= 100
     puts "#{k}: #{v} miles @ #{driver_trips.fetch(k)[:speed]} mph."
+  else
+    next
   end
 end
 
