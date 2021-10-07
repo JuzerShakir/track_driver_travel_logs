@@ -60,11 +60,11 @@ I have successfully solved this problem using ruby language and the solution can
 <br/>
 <img src="https://img.shields.io/badge/Ruby3-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
 
-The initial solution I came up with is in the file `ver_1.rb`, where I have used combination of arrays & hashes to get to the appropraite solution. Whereas, in the `ver_2.rb` file I have used only hashes, levaraging the rich methods ruby provides for hashes.
+The initial solution I came up with is in the file `ver_1.rb`, where I have used combination of arrays & hashes to get to the appropraite solution. Whereas, in the `ver_2.rb` file I have used only hashes, levaraging the rich methods that ruby provides.
+
+Both soultion files achieve correct results but the main difference you will find is in the code. `ver_1.rb` uses arrays extensively and is almost impossible to follow what the code does if comments didn't exist. The updated solution, `ver_2.rb` is short and the code itself is understandable to most extent even for non-programmers.
 
 Here's a short video where I demostrate running both solution files in terminal:
-
-
 
 
 
