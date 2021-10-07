@@ -68,7 +68,6 @@ Here's a short video where I demostrate running both solution files in terminal:
 
 [![Video Thumbnail](assets/yt-thumbnail.png)](https://www.youtube.com/watch?v=QUsJcMB4z5E "Track Driver Travel Logs")
 
-<!--https://youtu.be/QUsJcMB4z5E-->
 
 #### 💎 Libraries Used
  - _time_
