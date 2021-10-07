@@ -85,7 +85,7 @@ or
 ruby ver_2.rb
 ```
 
-This will run the respective code file. Enter appropraite input to get desired output.
+This will run the given code file. Enter appropraite input to get desired output.
 
 ----
 
