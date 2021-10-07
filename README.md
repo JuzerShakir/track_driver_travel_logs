@@ -54,9 +54,17 @@ Adam: 0 miles
 
 ### ✔️ Solution Details
 
-<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" /> *ver: 2.7.2*
+I have successfully solved this problem using ruby language and the solution can be found in `ver_1.rb` & `ver_2.rb` files.
+
+<img src="https://img.shields.io/badge/Ruby2-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
 <br/>
-<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" /> *ver: 3.0.0*
+<img src="https://img.shields.io/badge/Ruby3-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
+
+The initial solution I came up with is in the file `ver_1.rb`, where I have used combination of arrays & hashes to get to the appropraite solution. Whereas, in the `ver_2.rb` file I have used only hashes, levaraging the rich methods ruby provides for hashes.
+
+Here's a short video where I demostrate running both solution files in terminal:
+
+
 
 
 
