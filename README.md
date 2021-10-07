@@ -66,7 +66,7 @@ Both soultion files achieve correct results but the main difference you will fin
 
 Here's a short video where I demostrate running both solution files in terminal:
 
-[![Demo Video](https://img.youtube.com/vi/QUsJcMB4z5E-Y/0.jpg)](https://www.youtube.com/watch?v=QUsJcMB4z5E-Y "Track Driver Travel Logs")
+[![Demo Video](https://img.youtube.com/vi/QUsJcMB4z5E-Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=QUsJcMB4z5E-Y "Track Driver Travel Logs")
 
 <!--https://youtu.be/QUsJcMB4z5E-->
 
