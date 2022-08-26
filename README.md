@@ -57,11 +57,11 @@ Adam: 0 miles
 
 I have successfully solved this problem using ruby language and the solution can be found in `ver_1.rb`, `ver_2.rb` & `ver_3.rb` files.
 
-- The initial solution I came up with is in the file `ver_1.rb`, where I have used combination of arrays & hashes to get to the appropriate solution. uses arrays extensively and is almost impossible to follow what the code does if comments don't exist. (~220 lines)
+- The initial solution I came up with is in the file `ver_1.rb`, where I have used combination of arrays & hashes to get to the appropriate solution. uses arrays extensively and is almost impossible to follow what the code does if comments don't exist. (~220 lines on 23rd Jan '21)
 
-- In the `ver_2.rb`, I have used only hashes, leveraging the rich methods that ruby provides. It's understandable to most extent even for non-programmers. (~155 lines)
+- In the `ver_2.rb`, I have used only hashes, leveraging the rich methods that ruby provides. It's understandable to most extent even for non-programmers. (~155 lines on 27 Sep '21)
 
-- And in `ver_3.rb`, separated the input in a file `input.txt` as described in the problem and separated each functions in a different methods and is one of the best solutions. (~70 lines)
+- And in `ver_3.rb`, separated the input in a file `input.txt` as described in the problem and separated each functions in a different methods and is one of the best solutions. (~70 lines on 26 Aug '22)
 
 All solution files achieve correct results but the main difference you will find is in the code.
 
