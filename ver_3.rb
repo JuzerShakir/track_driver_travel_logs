@@ -1,3 +1,7 @@
+### Initial Build on 23 Jan 2021, refer ver_1.rb
+### Revised on 26 Aug 2022
+### Using Ruby version ruby 3.1.2
+
 require 'time'
 
 # * take the input file and extract data
