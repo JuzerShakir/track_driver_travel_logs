@@ -99,4 +99,4 @@ This will run the given code file. Enter appropriate input to get desired output
 
 ![](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=juzershakir.track_driving_history&color=000000&lcolor=000000&style=for-the-badge&logo=Github)
 
-<a href="https://wakatime.com/badge/github/JuzerShakir/track_driving_history"><img src="https://wakatime.com/badge/github/JuzerShakir/track_driving_history.svg" alt="wakatime"></a>
+<a href="https://wakatime.com/badge/user/ccef187f-4308-4666-920d-d0a9a07d713a/project/11197700-002d-4cb2-896f-b964a2c28b60"><img src="https://wakatime.com/badge/user/ccef187f-4308-4666-920d-d0a9a07d713a/project/11197700-002d-4cb2-896f-b964a2c28b60.svg" alt="wakatime"></a>
