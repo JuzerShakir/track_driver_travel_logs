@@ -55,13 +55,17 @@ Adam: 0 miles
 <img src="https://img.shields.io/badge/Ruby2-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
 <img src="https://img.shields.io/badge/Ruby3-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
 
-I have successfully solved this problem using ruby language and the solution can be found in `ver_1.rb` & `ver_2.rb` files.
+I have successfully solved this problem using ruby language and the solution can be found in `ver_1.rb`, `ver_2.rb` & `ver_3.rb` files.
 
-The initial solution I came up with is in the file `ver_1.rb`, where I have used combination of arrays & hashes to get to the appropriate solution. Whereas, in the `ver_2.rb` file I have used only hashes, leveraging the rich methods that ruby provides.
+- The initial solution I came up with is in the file `ver_1.rb`, where I have used combination of arrays & hashes to get to the appropriate solution. uses arrays extensively and is almost impossible to follow what the code does if comments don't exist. (~220 lines)
 
-Both solution files achieve correct results but the main difference you will find is in the code. `ver_1.rb` uses arrays extensively and is almost impossible to follow what the code does if comments didn't exist. The updated solution, `ver_2.rb` is short and the code itself is understandable to most extent even for non-programmers.
+- In the `ver_2.rb`, I have used only hashes, leveraging the rich methods that ruby provides. It's understandable to most extent even for non-programmers. (~155 lines)
 
-Here's a short video where I demonstrate running both solution files in terminal:
+- And in `ver_3.rb`, separated the input in a file `input.txt` as described in the problem and separated each functions in a different methods and is one of the best solutions. (~70 lines)
+
+All solution files achieve correct results but the main difference you will find is in the code.
+
+Here's a short video where I demonstrate running solution files in terminal:
 
 [![Video Thumbnail](assets/yt-thumbnail.png)](https://www.youtube.com/watch?v=QUsJcMB4z5E "Track Driver Travel Logs")
 
@@ -83,7 +87,13 @@ or
 ruby ver_2.rb
 ```
 
-This will run the given code file. Enter appropraite input to get desired output.
+or
+
+```bash
+ruby ver_3.rb
+```
+
+This will run the given code file. Enter appropriate input to get desired output.
 
 ---
 
